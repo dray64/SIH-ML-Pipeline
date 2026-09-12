@@ -8,7 +8,7 @@ from src.feature_pipeline import build_features_from_dataframe
 
 def train_and_export():
     print("=" * 80)
-    print(" TRAINING BLANCO EARLY-WARNING SYSTEM")
+    print(" TRAINING FLASH FLOOD EARLY-WARNING SYSTEM")
     print("=" * 80)
     
     df_raw = pd.read_csv(RAW_DATA_PATH)
